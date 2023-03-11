@@ -38,8 +38,8 @@ class FormTest extends KernelTestBase {
   public function testTestForm1() {
 
     # Set all checkbox values to FALSE.
-    $values['checkbox_with_default_true'] = FALSE;
-    $values['checkbox_without_default'] = FALSE;
+    $values['checkbox_with_default_true'] = NULL;
+    $values['checkbox_without_default'] = NULL;
 
     $this->submitForm1($values);
 
