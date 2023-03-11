@@ -1,0 +1,5 @@
+name: Quick Test Form
+description: Quick Test Form
+type: module
+package: Test
+core_version_requirement: ^9

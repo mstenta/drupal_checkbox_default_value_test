@@ -1,0 +1,7 @@
+quick_test.form:
+  path: '/test-form'
+  defaults:
+    _title: 'Test form'
+    _form: '\Drupal\quick_test\Form\TestForm'
+  requirements:
+    _permission: 'access content'
