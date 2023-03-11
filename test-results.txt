@@ -1,0 +1,34 @@
+PHPUnit 9.5.27 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.1.13
+Configuration: /opt/drupal/phpunit.xml
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+Testing Drupal\Tests\quick_test\Kernel\FormTest
+Test 'Drupal\Tests\quick_test\Kernel\FormTest::testTestForm1' started
+Test 'Drupal\Tests\quick_test\Kernel\FormTest::testTestForm1' ended
+Test 'Drupal\Tests\quick_test\Kernel\FormTest::testTestForm2' started
+Test 'Drupal\Tests\quick_test\Kernel\FormTest::testTestForm2' ended
+
+
+Time: 00:09.454, Memory: 10.00 MB
+
+There were 2 failures:
+
+1) Drupal\Tests\quick_test\Kernel\FormTest::testTestForm1
+Failed asserting that true matches expected false.
+
+/opt/drupal/vendor/phpunit/phpunit/src/Framework/Constraint/Equality/IsEqual.php:96
+/opt/drupal/web/profiles/farm/modules/quick/test/tests/Kernel/FormTest.php:47
+/opt/drupal/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+
+2) Drupal\Tests\quick_test\Kernel\FormTest::testTestForm2
+Failed asserting that true matches expected false.
+
+/opt/drupal/vendor/phpunit/phpunit/src/Framework/Constraint/Equality/IsEqual.php:96
+/opt/drupal/web/profiles/farm/modules/quick/test/tests/Kernel/FormTest.php:72
+/opt/drupal/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+
+FAILURES!
+Tests: 2, Assertions: 19, Failures: 2.
